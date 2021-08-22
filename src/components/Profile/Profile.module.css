@@ -1,0 +1,14 @@
+.content {
+    grid-area: c;
+    background-color: #FDEFE4FF;
+}
+
+.image {
+    opacity: 45%;
+    width: 800%;
+    height: 100%;
+}
+
+.item {
+    color: #3AB3B5FF;
+}

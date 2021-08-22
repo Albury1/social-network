@@ -1,0 +1,56 @@
+.nav {
+    padding: 20px;
+    grid-area: n;
+    background-color: #24272CFF;
+    width: 125px;
+    height: 100%;
+    opacity: 90%;
+}
+
+.item a {
+    padding: 10px;
+    text-decoration: none;
+    color: #DED2D2FF;
+    font-family: Droid Sans;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.item a.active {
+    color: darkgoldenrod;
+}
+
+a:visited {
+    color: #DED2D2FF;
+    font-family: Dubai;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.photo {
+    width: 25%;
+    border: 2px solid rgb(0, 0, 0, .5);
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.photo img {
+    transform: translateY(5px);
+}
+
+.photoIconElements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0, .2);
+    background-color: white;
+}
+
+.friendsBlock {
+    text-decoration: none;
+    color: #DED2D2FF;
+    font-family: Dubai;
+    font-size: 35px;
+}
